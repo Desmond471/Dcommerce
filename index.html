@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KidsTab Store</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Kids<span>Tab</span></div>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="{% url 'about' %}">About</a>                    
+      <a href="#">Contact</a>
+      <a href="#" class="cart">🛒</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Fun Learning Starts Here!</h1>
+      <p>Explore our range of colorful, durable, and safe tablets for kids.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Our Best-Selling Kids Tablets</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="{% static 'image/image1.jpg' %}" alt="Kids Tablet 1">
+        <h3>KidsTab X10</h3>
+        <p>10-inch screen • Educational apps • Parental control</p>
+        <span>$149.99</span>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="{% static 'image/image2.jpg' %}" alt="Kids Tablet 2">
+        <h3>EduTab Mini</h3>
+        <p>Lightweight • Fun games • Long battery life</p>
+        <span>$119.99</span>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="{% static 'image/image3.jpg' %}" alt="Kids Tablet 3">
+        <h3>LearnPad Pro</h3>
+        <p>8-inch HD display • Parental safety • Wi-Fi enabled</p>
+        <span>$179.99</span>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+<footer>
+<div class="footer-links">
+    <a href="">Product Page</a>
+    <a href="">Contact us</a>
+    <a href="#">Support Forum</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Disclaimer</a>
+</div>
+<p class="copyright">
+    Copyright © 2013-2023 | 2025 KidsTab Store. All rights reserved. |
+    Operated by Desmond | No20, Dee'Unique School Iyana Ipaja
+</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+</html>
+
